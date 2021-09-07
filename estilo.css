@@ -1,12 +1,52 @@
-.sx2 {
-    background-color:black;
+.bg-verde {
+    background-color: #002776;
+}
+#start {
+    background-image: url(rj3.jpg);
+    height: 50vmax;
+}
+#topo-br{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+#topo-hist{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #002776;
+    font-size: 20px;
+}
+.bg-azul {
+    background-color: #002776;
     color: white;
 }
-.down {
-    border: solid 1px;
-    border-radius: 10px;
-    padding: 10px;
+#parallax {
+    background-image: url(onça.jpg);
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.lnk {
+#parallax2 {
+    background-image: url(catedral.jpg);
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-w {
     color: white;
+}
+.text-b {
+    color: black;
+}
+.bg-amarelo {
+    background-color: #009c3b;
+    color: white;
+}
+#topo-governo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffdf00;
+    font-size: 20px;
 }

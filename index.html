@@ -4,116 +4,207 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Conheça nosso sistema de gestão financeira. Somos referência em finanças."/>
-    <meta property="og:image" content="https://kroshyr.github.io/finance.jpg" />
-    <meta property="og:type" content="website"/>
-    <meta property="og:locale" content="pt_BR"/> 
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="favicon.ico" />
-    <title>Finance</title>
+
+    <title>Nosso Brasil</title>
   </head>
   <body>
-    
     <!--Navbar-->
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand brandx ms-4">Finance</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Quem Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Aprenda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!--Section 1-->
-    <section class="hero">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-verde">
         <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                    <h1 class="display-2">Suas contas, descomplicadas</h1>
-                    <p>Conecte-se com seu dinheiro e faça mais pela sua vida financeira.</p>
-                </div>
-                <div class="col-md-6 d-none d-md-block">
-                    <img src="capa-mulher.png" alt="">
+          <a class="navbar-brand" href="#start">BRASIL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#start">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#historia-colonial">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lugares">Lugares</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#governo">Governo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Primeira Seção-->
+      <section id="start">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <span id="topo-br">BRASIL</span>
                 </div>
             </div>
+            <div class="row pt-5 d-flex">
+                <div class="col-md-12 align-self-center">
+                    <h1 class="display-1">Conheça o maior país da América do Sul</h1>
+                    <button type="button" class="btn btn-outline-dark">Veja Destinos</button>
+                </div>
         </div>
-    </section>
-    <!--Section 2-->
-    <section class="sx2">
-        <div class="container-fluid">
+      </section>
+      <!--Segunda Seção-->
+      <section id="historia-colonial">
+          <div class="container pt-5 pb-5">
+              <div class="row">
+                  <div class="d-flex justify-content-center">
+                      <span id="topo-hist">HISTORIA</span>
+                  </div>
+              </div>
+              <div class="row pt-5">
+                  <h1 class="display-4">Colonial</h1>
+              </div>
+              <div class="row">
+                <div class="col-md-6 d-flex align-self-center">
+                    <p>O Brasil foi descoberto em 22 de abril de 1500 pelo capitão-mor duma expedição portuguesa em busca das Índias, Pedro Álvares Cabral, que chegou ao litoral sul da Bahia, na região da atual cidade de Porto Seguro.</p>
+                </div>
+                  <div class="col-md-6">
+                      <img src="cabral.jpg" alt="Desembarque de Cabral em Porto Seguro, óleo sobre tela, Oscar Pereira da Silva, 1904. Acervo do Museu Histórico Nacional do Rio de Janeiro." class="img-fluid img-thumbnail">
+                      <i>Desembarque de Cabral em Porto Seguro, óleo sobre tela, Oscar Pereira da Silva, 1904. Acervo do Museu Histórico Nacional do Rio de Janeiro.</i>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="missa.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>A Primeira Missa do Brasil</h5>
+                              <p>Detalhe da A Primeira Missa no Brasil de Victor Meirelles (1861).</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="brasilis.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Terra Brasilis</h5>
+                              <p>Detalhe do mapa "Terra Brasilis" (Atlas Miller, 1519), atualmente na Biblioteca Nacional de França.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="paubrasil.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Pau Brasil</h5>
+                              <p>Derrubada do pau-brasil em ilustração da Cosmografia Universal de André Thevet, 1575.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                  </div>
+                  <div class="col-md-6 d-flex align-self-center">
+                    <p>O pau-brasil era a principal riqueza de crescente demanda na Europa. Estima-se que havia, na época do descobrimento, mais de 70 milhões de árvores do tipo, abundando numa faixa de 18 km do litoral do Rio Grande do Norte até a Guanabara. Quase todas foram derrubadas e levadas para aquele continente. A extração foi tanta que atualmente a espécie é protegida para não sofrer extinção.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--Parallax-->
+      <section id="parallax">
+      </section>
+      <!--Terceira Seção-->
+      <section class="bg-azul" id="lugares">
+          <div class="container pt-5">
             <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center ms-3 mt-5 mb-5">
-                        <h1 class="display-4">Administração Financeira na palma da sua mão</h1>
-                        <p>Baixe Agora</p>
-                        <a href="#" class="lnk"><span class="down display-4"><i class="fab fa-apple"></i></span></a>
-                        <a href="#" class="lnk"><span class="down display-4"><i class="fab fa-android"></i></span></a>
-                        <a href="#" class="lnk"><span class="down display-4"><i class="fab fa-windows"></i></span></a>
-                        <a href="#" class="lnk"><span class="down display-4"><i class="fab fa-linux"></i></span></a>
+                <div class="d-flex justify-content-center">
+                    <span id="topo-br">LUGARES</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container pt-5 pb-5">
+                    <div class="row">
+                    <div class="col-sm-4">
+                        <figure class="figure">
+                            <img src="cristo.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-w">Cristo Redentor - RJ</figcaption>
+                          </figure>
+                    </div>
+                    <div class="col-sm-4">
+                        <figure class="figure">
+                            <img src="pao.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-w">Pão de Açucar - RJ</figcaption>
+                          </figure>
+                    </div>
+                    <div class="col-sm-4">
+                        <figure class="figure">
+                            <img src="paulista.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-w">Avenida Paulista - SP</figcaption>
+                          </figure>
+                    </div>
+                        <div class="col-sm-4">
+                            <figure class="figure">
+                                <img src="furnas.jpg" class="figure-img img-fluid rounded" alt="...">
+                                <figcaption class="figure-caption text-w">Lago de Furnas - MG</figcaption>
+                              </figure>
+                        </div>
+                        <div class="col-sm-4">
+                            <figure class="figure">
+                                <img src="pelourinho.jpg" class="figure-img img-fluid rounded" alt="...">
+                                <figcaption class="figure-caption text-w">Pelourinho - BA</figcaption>
+                              </figure>
+                        </div>
+                        <div class="col-sm-4">
+                            <figure class="figure">
+                                <img src="galinhas.jpg" class="figure-img img-fluid rounded" alt="...">
+                                <figcaption class="figure-caption text-w">Porto de Galinhas - PE</figcaption>
+                              </figure> 
+                </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <!--Parallax2-->
+      <section id="parallax2">
+    </section>
+    <!--Ultima Seção-->
+    <section class="bg-amarelo" id="governo">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <span id="topo-governo">GOVERNO</span>
+                </div>
+            </div>
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="republica.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 d-flex align-self-center">
+                        <p>O Brasil é uma república federativa presidencialista. República, porque o Chefe de Estado é eletivo e temporário; federativa, pois os Estados são dotados de autonomia política; presidencialista, porque ambas as funções de Chefe de Governo e Chefe de Estado são exercidas pelo presidente.
+                            O Poder de Estado é dividido entre órgãos políticos distintos. A teoria dos três poderes foi desenvolvida por Charles de Montesquieu em seu livro “O Espírito das Leis” (1748). Baseado na afirmação de que “só o poder freia o poder”, o mesmo afirmava que para não haver abusos, era necessário, por meios legais, dividir o Poder de Estado em Executivo, Legislativo e Judiciário. No Brasil, esses são exercidos respectivamente, pelo presidente da república, Congresso Nacional e pelo Supremo Tribunal Federal (STF)</p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="cel.png" alt="" class="img-fluid d-none d-md-block">
-                </div>
             </div>
-        </div>
-    </section>
-    <!--Section 3-->
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-sm-4 d-flex">
-                    <h1 class="display-2">Entre em contato conosco</h1>
-                </div>
-                <div class="col-sm-8">
-                    <form action="">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
-                          <div class="col-auto">
-                            <button type="submit" class="btn btn-dark mb-3">Enviar</button>
-                          </div>
-                    </form>
-                </div>
-            </div>
-        </div>
     </section>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
   </body>
 </html>
