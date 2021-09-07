@@ -1,0 +1,12 @@
+.sx2 {
+    background-color:black;
+    color: white;
+}
+.down {
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.lnk {
+    color: white;
+}
